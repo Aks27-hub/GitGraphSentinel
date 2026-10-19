@@ -70,7 +70,7 @@ Ensure Docker Desktop is running on your machine, then spin up the FalkorDB cont
 ```Bash
 docker run -p 6379:6379 -p 3000:3000 -it --rm falkordb/falkordb:latest
 ```
-(Optional: Open http://localhost:3000 in your browser and log in with default credentials falkor://Default:Default@localhost:6379 to view your live graph browser).
+(Optional: Open http://localhost:3000 in your browser and log in with default credentials.
 
 Step 4: Configure Your Gemini API Key
 Set your API key as an environment variable in your terminal:
